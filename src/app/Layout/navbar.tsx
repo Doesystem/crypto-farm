@@ -19,7 +19,9 @@ export default function Navbar() {
         <div className={'rounded-lg shadow-md bg-slate-100'}>
             <div>
                 <Link className={'p-2 rounded-lg shadow-md bg-slate-200'} href={'/'}>Home</Link>
-                <Link className={'p-2 rounded-lg shadow-md bg-slate-200'} href={'/test-registry'}>Test registry</Link>
+                <Link className={'p-2 rounded-lg shadow-md bg-slate-200'} href={'/test-registry'}>Registry</Link>
+                <Link className={'p-2 rounded-lg shadow-md bg-slate-200'}
+                      href={'/test-portfolio-vault'}>PorfolioVault</Link>
             </div>
             <ul className={'p-3 text-xs'}>
                 <li>VERSION: <span className={'font-bold bg-slate-200'}>{version}</span></li>
